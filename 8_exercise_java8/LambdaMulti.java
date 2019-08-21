@@ -2,7 +2,6 @@ package test;
 
 //TODO go through below code, run and test
 //TODO create new interface with method for concatenating two strings and implement using Lambda with two parameters
-
 @FunctionalInterface
 interface MyInterface {
 

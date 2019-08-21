@@ -4,10 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Stream;
 
-//TODO create Employee inner class ad make stream aggregate-count work.
+//TODO create Employee inner class and make stream aggregate-count work.
 //TODO add code blocks to use parallel stream instead of sequential and compare time taken.. 
-//point to know about parallel stream and when to use...
-
+//parallel stream - when to use...
 //TODO modify filter predicate and add codition to check salary >20K and less than 30K
 public class StreamTest {
 

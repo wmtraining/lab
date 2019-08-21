@@ -3,8 +3,8 @@ package test;
 import java.util.ArrayList;
 import java.util.List;
 
-//TODO check main method argument
 //TODO convert normal for loop to enhanced for loop. for(String item : items)
+//TODO check forEach() and understand what it does
 public class ForEachTest {
 
 	public static void main(String... args) {

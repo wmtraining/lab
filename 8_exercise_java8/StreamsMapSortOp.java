@@ -5,8 +5,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-//TODO run program understand what it performs.
-//TODO try toSet. create collection with duplicate names and use set to remove duplicates etc..
+//TODO run program understand what it does.
+//TODO try toSet(). create collection with duplicate names and use set to remove duplicates etc..
 public class StreamsMapSortOp {
 
 	public static void main(String... args) {

@@ -1,5 +1,6 @@
 package test;
 
+//TODO check Anonymous Runnable vs  Lambda runnable
 public class LambdaExample {
 
 	  public static void main(String[] args) {
@@ -18,7 +19,7 @@ public class LambdaExample {
 	    r1.run();
 	    
 	    // Lambda Runnable
-	    Runnable r2 = () -> System.out.println("Hello world two!.. run method implementation..");
+	    Runnable r2 = () -> System.out.println("Hello world Lambda..!.. run method implementation..");
 	    
 	    // Run 
 	    r2.run();

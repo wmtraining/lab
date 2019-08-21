@@ -104,5 +104,10 @@ public class Person implements Serializable{
 		
 hint: session object gives handle to start txn		
 
+8) read data from person table...  
 
+session.createQuery("from Person", Person.class).list()
+
+9) setup one to one relationship, test.
+10) close connection and access object loaded in step 9... what will happen in  lazy loading?  vs eager loading..
 	
