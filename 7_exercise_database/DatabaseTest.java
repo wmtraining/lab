@@ -10,6 +10,10 @@ import java.sql.Statement;
 //TODO test with in memory db instead of file based
 //TODO - what happens if we dont close connection. what happens during connection timeout? 
 		// any performance issue when we keep opening and closing connections?
+		
+//TODO parameterize input values for insert query without hardcoding in sql query.
+	//preparedstatement ? what benefits?
+	//stored procedured and callable statements
 public class DatabaseTest {
 
 	   // JDBC driver name and database URL 
