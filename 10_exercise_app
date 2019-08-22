@@ -1,0 +1,8 @@
+Aim is to create small e-commerce application:
+1) create JPA/hibernate entities for Product, Catalog, User, cart etc..
+2) create CRUD DAO methods for the entiries with hibernate/JPA
+3) create services/business layer class that exposes all data operations
+4) create business methods for managing products, adding to cart and checkout operations..
+5) create Unit test classess (either Junit or plan java classes) to test the operations till checkout
+
+Note: make sure to maintain folder structure accordingly for each layer. eg: model/entity, dao, service etc....
