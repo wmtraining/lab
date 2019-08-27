@@ -97,7 +97,7 @@ public class Person implements Serializable{
 		return sessionFactory;
 	
 	
-7) use session factory and save Person entity to h2 in memory db (or file based h2 db).
+7) use session factory and save Person entity to h2 in memory db (or file based h2 db). Create test java class with main method and add following, run to test
 
 		Session session = sessFactory.getCurrentSession();
 		session.save(person);
